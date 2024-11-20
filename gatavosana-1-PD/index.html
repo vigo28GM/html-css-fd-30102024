@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="input-Text" />
+    <button id="btn">Click On Me!</button>
+    <p id="output"></p>
+
+    <script>
+      let inputText = document.getElementById("input-Text");
+      let button = document.getElementById("btn");
+      let output = document.getElementById("output");
+
+      let person = {
+        name: "antra",
+        age: 16,
+      };
+
+      function processInput() {
+        person[inputText.value];
+        console.log(inputText.value);
+      }
+      button.addEventListener("click", processInput);
+      // output.inputHtml;
+
+      //console.log(inputText, button);
+    </script>
+  </body>
+</html>
